@@ -7,7 +7,7 @@
 .home__header{
     display: flex;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 15px 30px;/*20px 30px*/
     align-items: center;
 }
 
@@ -15,11 +15,14 @@
     margin-right: 20px;
     text-decoration: inherit;
     color: rgba(0,0,0,0.87);
-    font-size: 15px;
+    font-size: 13px;/*15px*/
+    line-height: 24px;
+    font-family: arial,sans-serif;
 }
 
 .home__header a:hover{
     text-decoration: underline;
+    color: #a3a3a3;
 }
 
 .home__headerRight{
@@ -29,8 +32,15 @@
     justify-content: space-between;
 }
 
-.home__headerRight > MuiSvgIcon-root{
+.home__headerRight > .MuiSvgIcon-root{
     margin-right: 20px;
+    color: #737373;
+}
+
+/*Nuevo*/
+.home__headerRight > .MuiSvgIcon-root:hover{
+    color: #272727;
+    cursor: pointer;
 }
 
 .home__body{
