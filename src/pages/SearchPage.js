@@ -18,8 +18,12 @@ function SearchPage() {
     //const { data } = useGoogleSearch(term);
     const data = Response;
 
+    //https://developers.google.com/custom-search/v1/using_rest
+    //https://cse.google.com/cse/create/new
+
     console.log(data);
 
+    //2:54:27 ---> tiempo actual de video
     return (
         <div className="searchPage">
             <div className="searchPage__header">
